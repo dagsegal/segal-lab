@@ -225,6 +225,8 @@ h2 {
 .lede { max-width: 760px; }
 .lede p, .lede-single { color: var(--text-muted); font-size: 1.03rem; max-width: 760px; }
 .lede p + p { margin-top: 1rem; }
+.lede-single + .lede-single { margin-top: 1rem; }
+.lede-single a { color: var(--cyan); font-weight: 600; }
 
 /* Approach strip */
 .approach-strip {
